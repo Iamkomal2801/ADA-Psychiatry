@@ -29,7 +29,7 @@ function HexDot({ active, onClick }: { active: boolean; onClick: () => void }) {
           points="10,1.5 17.8,5.75 17.8,14.25 10,18.5 2.2,14.25 2.2,5.75"
           fill={active ? `url(#${gradId})` : 'transparent'}
           stroke="#daa520"
-          strokeWidth={active ? 0 : 1.2}
+          strokeWidth={active ? 0 : 1}
         />
       </svg>
     </button>
@@ -96,7 +96,7 @@ export function Hero() {
             </Button>
 
             {/* Pagination dots — same left edge as button (no extra offset) */}
-            <div className="mt-6 flex items-center gap-2 sm:mt-7 lg:mt-8">
+            <div className="!mt-8 flex items-center gap-2  sm:mt-7 lg:mt-8">
               {heroSlides.map((slide, index) => (
                 <HexDot
                   key={slide.id}

@@ -12,7 +12,7 @@ export function Header() {
       <div className="mx-auto flex h-full max-w-[1440px] items-center justify-between px-5 md:px-10">
         <a href="#top" className="flex items-center gap-2.5 sm:gap-3 md:gap-5">
           <Logo className="h-9 w-9 sm:h-10 sm:w-10 md:h-[46px] md:w-[46px]" />
-          <span className="font-sans text-[15px] font-semibold leading-none tracking-[2px] sm:text-[16px] sm:tracking-[3px] md:text-[18px]">
+          <span className="font-display text-[15px] font-semibold leading-none tracking-[2px] sm:text-[16px] sm:tracking-[3px] md:text-[18px]">
             Ada Psychiatry
           </span>
         </a>
